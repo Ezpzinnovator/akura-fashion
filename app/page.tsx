@@ -265,12 +265,12 @@ const categories = useMemo(() => {
               ⌕
             </button>
 
-            <button
-              onClick={() => setShowCart(true)}
-              className="text-xs font-semibold transition hover:text-[#3B82F6] sm:text-sm"
-            >
-              BAG ({cartCount})
-            </button>
+           <a
+  href="/cart"
+  className="text-xs font-semibold transition hover:text-[#3B82F6] sm:text-sm"
+>
+  BAG ({cartCount})
+</a>
           </div>
         </div>
       </header>
